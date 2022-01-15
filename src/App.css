@@ -1,0 +1,64 @@
+nes (53 sloc) 810 Bytes
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 300px;
+  width: 100%;
+  margin: 0 auto 60px auto;
+}
+
+img {
+  display: block;
+  width: 200px;
+  margin: 80px auto 30px auto;
+}
+
+.part {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(231, 231, 231);
+
+  margin-bottom: 20px;
+}
+
+.space {
+  padding: 50px;
+}
+
+header input {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 3px;
+  margin: 20px 0;
+  font-size: 20px;
+  color: grey;
+  outline-color: rgb(177, 204, 235);
+  shape-outside: -2px;
+  padding: 20px;
+  width: 90%;
+}
+
+em {
+  color: grey;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+footer img {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.sign {
+  text-align: center;
+  font-size: 12px;
+}
